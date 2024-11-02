@@ -1,0 +1,108 @@
+header{
+	height: 100px;
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.8);
+	line-height:100px;
+}
+ul{
+	list-style-type: none;
+	list-style-position: inside;
+	border: 3px double gray;
+	padding:20px 10px;
+	width:100%;
+	overflow:hidden;
+	height :20px;
+}
+ul li{
+	background-color: rgba(255, 255, 255, 0.8);
+	margin:1px;
+	border-radius: 1px;
+	box-sizing: border-box;
+	width:275px;
+	float: left;
+}
+ul li a:link,ul li a:visited{
+	display:block;
+	border-radius: 8px;
+	font-size: 20px;
+	color: red;
+	border: 1px solid darkgray;
+	text-decoration: none;
+	height:40px;
+	line-height: 40px;
+	text-align: center;
+}
+ul li a:hover{
+	background-color: beige;
+	border: 1px solid oklab(from color l a b);
+	color: aqua;
+}
+.left{
+	float: left;width: 300px;
+	border: 1px solid darkgray;
+	background-color: rgba(255, 255, 255, 0.8);
+	height: 550px;
+}
+.right{
+	float: right;width: 300px;
+	border: 1px solid darkgray;
+	background-color: rgba(255, 255, 255, 0.8);
+	height: 550px;
+}
+.right img{
+	height: 270px;
+	width: 300px;
+}
+table{
+	width :100%
+	border-collapse: collapse;
+}
+
+th,td{
+	border: 1px solid grey;
+	padding: 8px;
+}
+
+th{
+	background-color: #f2f2f2;
+}
+.middle{
+	margin-left: 320px;margin-right: 320px;
+	border: 1px darkgray;
+	background-color: rgba(255, 255, 255, 0.8);
+	height: 550px;
+}
+.left img{
+	 height: 270px; width: 300px;
+}
+h3{
+	dispaly: flex;
+	color: lightskyblue;
+	font-size :24px;
+}
+h3::before{
+	content:'';
+	display: inline-block;
+	width: 5px;
+	height: 30px;
+	margin-right: 10px;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+p{
+	text-indent: 2em;
+}
+footer{
+	clear: both; padding-top: 10px; width: 100%; height :40px;
+	background-color: rgba(255, 255, 255, 0.8); text-align: center;
+}
+#return{
+	position: fixed;
+	left: 10px
+	bottom: 10px;
+}
+body{
+	background-image: url('2.jpg'); /* 设置背景图片路径 */
+	background-size: cover; /* 使背景图片覆盖整个页面 */
+	background-position: center; /* 图片在页面中心显示 */
+	background-repeat: no-repeat; /* 不重复图片 */
+}
